@@ -623,17 +623,17 @@ ui::text_common : _nameless._.tutorial.message.look.1 {
 ui::group : _nameless._.advisor.standard {
  fitting: false
  my_children: 0
- coords_l: 1054
- coords_r: 1440
- coords_t: 461
- coords_b: 0
- area_l: 1054
- area_r: 1440
- area_t: 461
- area_b: 0
- id: 105
- layer: 0
- tab: -1
+coords_l: 527
+coords_r: 913
+coords_t: 990
+coords_b: 594
+area_l: 527
+area_r: 913
+area_t: 990
+area_b: 594
+id: 105
+layer: 14
+tab: -1
  pointer: -1
  apparent_depth: 0
  my_parent: _nameless.0049c8dd1
