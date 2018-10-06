@@ -1,0 +1,1574 @@
+SiiNunit
+{
+ui::window : _nameless.0049c8dd1 {
+ window_handler: _nameless.0049c8dd0
+ clip_children: true
+ keep_aspect: none
+ user_string_data: ""
+ fitting: false
+ my_children: 5
+ my_children[0]: _nameless._.tutorial.standard
+ my_children[1]: _nameless._.tutorial.uk
+ my_children[2]: _nameless._.advisor.standard
+ my_children[3]: _nameless._.advisor.uk
+ my_children[4]: _nameless._.advisor.area
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+adviser_hdl : _nameless.0049c8dd0 {
+ window_link: _nameless.0049c8dd1
+}
+
+ui::group : _nameless._.tutorial.standard {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless._.adviser.overlay
+ my_children[1]: _nameless._.adviser.msg
+ my_children[2]: _nameless._.tutorial.message
+ coords_l: 618
+ coords_r: 1441
+ coords_t: 617
+ coords_b: 0
+ area_l: 618
+ area_r: 1441
+ area_t: 617
+ area_b: 0
+ id: 1500
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049c8dd1
+}
+
+ui::text : _nameless._.adviser.overlay {
+ text: "<img src=/material/ui/adviser/ra_tutorial_1.mat>"
+ coords_l: 1052
+ coords_r: 1441
+ coords_t: 331
+ coords_b: 0
+ area_l: &432501e8
+ area_r: &432501e8
+ area_t: 0
+ area_b: 0
+ id: 1510
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.standard
+}
+
+ui::group : _nameless._.adviser.msg {
+ fitting: true
+ my_children: 6
+ my_children[0]: _nameless._.tutorial.adviser.a
+ my_children[1]: _nameless._.tutorial.adviser.b
+ my_children[2]: _nameless._.tutorial.adviser.c
+ my_children[3]: _nameless._.tooltip.help1
+ my_children[4]: _nameless._.tooltip.help2
+ my_children[5]: _nameless._.tooltip.help3
+ coords_l: 618
+ coords_r: 1082
+ coords_t: 314
+ coords_b: 57
+ area_l: 618
+ area_r: 1082
+ area_t: 314
+ area_b: 57
+ id: 1600
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.standard
+}
+
+ui::text_common : _nameless._.tutorial.adviser.a {
+ value: "@@tutorial_adviser1a@@"
+ look_template: txt.help.left.center
+ text: ""
+ coords_l: 632
+ coords_r: 1042
+ coords_t: 311
+ coords_b: 254
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1610
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg
+}
+
+ui::text_common : _nameless._.tutorial.adviser.b {
+ value: "@@tutorial_adviser1b@@"
+ look_template: txt.help.left.center
+ text: ""
+ coords_l: 632
+ coords_r: 1042
+ coords_t: 248
+ coords_b: 127
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1620
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg
+}
+
+ui::text_common : _nameless._.tutorial.adviser.c {
+ value: "@@tutorial_adviser1c@@"
+ look_template: txt.help.left.center
+ text: ""
+ coords_l: 632
+ coords_r: 1042
+ coords_t: 120
+ coords_b: 63
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1630
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg
+}
+
+ui::text_common : _nameless._.tooltip.help1 {
+ value: 0
+ look_template: txt.ttip_help.right
+ text: ""
+ coords_l: 618
+ coords_r: 1082
+ coords_t: 314
+ coords_b: 248
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg
+}
+
+ui::text_common : _nameless._.tooltip.help2 {
+ value: 33
+ look_template: txt.ttip_help.right
+ text: ""
+ coords_l: 618
+ coords_r: 1082
+ coords_t: 252
+ coords_b: 122
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg
+}
+
+ui::text_common : _nameless._.tooltip.help3 {
+ value: 0
+ look_template: txt.ttip_help.right
+ text: ""
+ coords_l: 618
+ coords_r: 1082
+ coords_t: 123
+ coords_b: 57
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg
+}
+
+ui::group : _nameless._.tutorial.message {
+ fitting: true
+ my_children: 4
+ my_children[0]: _nameless._.tutorial.message.text
+ my_children[1]: _nameless._.continue.button
+ my_children[2]: _nameless._.tutorial.message.bottom
+ my_children[3]: _nameless._.tutorial.message.look
+ coords_l: 1056
+ coords_r: 1433
+ coords_t: 617
+ coords_b: 325
+ area_l: 1056
+ area_r: 1433
+ area_t: 617
+ area_b: 325
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.standard
+}
+
+ui::text_common : _nameless._.tutorial.message.text {
+ value: tutorial
+ look_template: txt.help.left.top
+ text: ""
+ coords_l: 1076
+ coords_r: 1413
+ coords_t: 597
+ coords_b: 387
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1210
+ layer: 8
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.message
+}
+
+ui::button_common : _nameless._.continue.button {
+ value: "@@continue@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1109
+ coords_r: 1380
+ coords_t: 375
+ coords_b: 343
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1220
+ layer: 10
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.message
+}
+
+ui::text_common : _nameless._.tutorial.message.bottom {
+ value: ""
+ look_template: txt.help.big.center
+ text: ""
+ coords_l: 1086
+ coords_r: 1403
+ coords_t: 380
+ coords_b: 338
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1230
+ layer: 7
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.message
+}
+
+ui::text_common : _nameless._.tutorial.message.look {
+ value: ""
+ look_template: txt.tut_msg
+ text: ""
+ coords_l: 1056
+ coords_r: 1433
+ coords_t: 617
+ coords_b: 325
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.message
+}
+
+ui::group : _nameless._.tutorial.uk {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless._.adviser.overlay.1
+ my_children[1]: _nameless._.adviser.msg.1
+ my_children[2]: _nameless._.tutorial.message.1
+ coords_l: 5
+ coords_r: 825
+ coords_t: 617
+ coords_b: 0
+ area_l: 5
+ area_r: 825
+ area_t: 617
+ area_b: 0
+ id: 1501
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049c8dd1
+}
+
+ui::text : _nameless._.adviser.overlay.1 {
+ text: "<img src=/material/ui/adviser/ra_tutorial_1.mat>"
+ coords_l: 5
+ coords_r: 394
+ coords_t: 331
+ coords_b: 0
+ area_l: &c45c7f86
+ area_r: &c45c7f86
+ area_t: 0
+ area_b: 0
+ id: 1511
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.uk
+}
+
+ui::group : _nameless._.adviser.msg.1 {
+ fitting: true
+ my_children: 6
+ my_children[0]: _nameless._.tutorial.adviser.a.1
+ my_children[1]: _nameless._.tutorial.adviser.b.1
+ my_children[2]: _nameless._.tutorial.adviser.c.1
+ my_children[3]: _nameless._.tooltip.help1.1
+ my_children[4]: _nameless._.tooltip.help2.1
+ my_children[5]: _nameless._.tooltip.help3.1
+ coords_l: 361
+ coords_r: 825
+ coords_t: 314
+ coords_b: 57
+ area_l: 361
+ area_r: 825
+ area_t: 314
+ area_b: 57
+ id: 1601
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.uk
+}
+
+ui::text_common : _nameless._.tutorial.adviser.a.1 {
+ value: "@@tutorial_adviser1a@@"
+ look_template: txt.help.left.center
+ text: ""
+ coords_l: 390
+ coords_r: 800
+ coords_t: 311
+ coords_b: 254
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1611
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg.1
+}
+
+ui::text_common : _nameless._.tutorial.adviser.b.1 {
+ value: "@@tutorial_adviser1b@@"
+ look_template: txt.help.left.center
+ text: ""
+ coords_l: 390
+ coords_r: 800
+ coords_t: 248
+ coords_b: 127
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1621
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg.1
+}
+
+ui::text_common : _nameless._.tutorial.adviser.c.1 {
+ value: "@@tutorial_adviser1c@@"
+ look_template: txt.help.left.center
+ text: ""
+ coords_l: 390
+ coords_r: 800
+ coords_t: 120
+ coords_b: 63
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1631
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg.1
+}
+
+ui::text_common : _nameless._.tooltip.help1.1 {
+ value: 0
+ look_template: txt.ttip_help.left
+ text: ""
+ coords_l: 361
+ coords_r: 825
+ coords_t: 314
+ coords_b: 248
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg.1
+}
+
+ui::text_common : _nameless._.tooltip.help2.1 {
+ value: 33
+ look_template: txt.ttip_help.left
+ text: ""
+ coords_l: 361
+ coords_r: 825
+ coords_t: 252
+ coords_b: 122
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg.1
+}
+
+ui::text_common : _nameless._.tooltip.help3.1 {
+ value: 0
+ look_template: txt.ttip_help.left
+ text: ""
+ coords_l: 361
+ coords_r: 825
+ coords_t: 123
+ coords_b: 57
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.adviser.msg.1
+}
+
+ui::group : _nameless._.tutorial.message.1 {
+ fitting: true
+ my_children: 4
+ my_children[0]: _nameless._.tutorial.message.text.1
+ my_children[1]: _nameless._.continue.button.1
+ my_children[2]: _nameless._.tutorial.message.bottom.1
+ my_children[3]: _nameless._.tutorial.message.look.1
+ coords_l: 9
+ coords_r: 386
+ coords_t: 617
+ coords_b: 325
+ area_l: 9
+ area_r: 386
+ area_t: 617
+ area_b: 325
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.uk
+}
+
+ui::text_common : _nameless._.tutorial.message.text.1 {
+ value: tutorial
+ look_template: txt.help.left.top
+ text: ""
+ coords_l: 29
+ coords_r: 366
+ coords_t: 597
+ coords_b: 387
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1211
+ layer: 8
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.message.1
+}
+
+ui::button_common : _nameless._.continue.button.1 {
+ value: "@@continue@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 62
+ coords_r: 333
+ coords_t: 375
+ coords_b: 343
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1221
+ layer: 10
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.message.1
+}
+
+ui::text_common : _nameless._.tutorial.message.bottom.1 {
+ value: ""
+ look_template: txt.help.big.center
+ text: ""
+ coords_l: 39
+ coords_r: 356
+ coords_t: 380
+ coords_b: 338
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1231
+ layer: 7
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.message.1
+}
+
+ui::text_common : _nameless._.tutorial.message.look.1 {
+ value: ""
+ look_template: txt.tut_msg
+ text: ""
+ coords_l: 9
+ coords_r: 386
+ coords_t: 617
+ coords_b: 325
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.tutorial.message.1
+}
+
+ui::group : _nameless._.advisor.standard {
+ fitting: false
+ my_children: 0
+ coords_l: 1054
+ coords_r: 1440
+ coords_t: 461
+ coords_b: 0
+ area_l: 1054
+ area_r: 1440
+ area_t: 461
+ area_b: 0
+ id: 105
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049c8dd1
+}
+
+ui::group : _nameless._.advisor.uk {
+ fitting: false
+ my_children: 0
+ coords_l: 5
+ coords_r: 391
+ coords_t: 461
+ coords_b: 0
+ area_l: 5
+ area_r: 391
+ area_t: 461
+ area_b: 0
+ id: 106
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049c8dd1
+}
+
+ui::group : _nameless._.advisor.area {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.advisor.full
+ my_children[1]: _nameless._.advisor.mini
+ my_children[2]: _nameless._.weigh.service
+ coords_l: 1054
+ coords_r: 1440
+ coords_t: 461
+ coords_b: 0
+ area_l: 1054
+ area_r: 1440
+ area_t: 461
+ area_b: 0
+ id: 80
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049c8dd1
+}
+
+ui::group : _nameless._.advisor.full {
+ fitting: false
+ my_children: 12
+ my_children[0]: _nameless._.win
+ my_children[1]: _nameless._.icons.bcg
+ my_children[2]: _nameless._.bar.bottom
+ my_children[3]: _nameless._.logo
+ my_children[4]: _nameless._.win2
+ my_children[5]: _nameless._.running.line.bcg
+ my_children[6]: _nameless._.title.bcg
+ my_children[7]: _nameless._.page.buttons
+ my_children[8]: _nameless._.full.control.tip
+ my_children[9]: _nameless._.main.controls.tip
+ my_children[10]: _nameless._.help.button
+ my_children[11]: _nameless._.bar.top
+ coords_l: 1054
+ coords_r: 1440
+ coords_t: 461
+ coords_b: 0
+ area_l: 1054
+ area_r: 1440
+ area_t: 461
+ area_b: 0
+ id: 100
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.area
+}
+
+ui::text : _nameless._.win {
+ text: "<img src=/material/ui/adviser/bcg1.mat right=p382 bottom=p326>"
+ coords_l: 1054
+ coords_r: 1440
+ coords_t: 329
+ coords_b: 0
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text : _nameless._.icons.bcg {
+ text: "<img src=/material/ui/adviser/bar_up2.mat top=p5 xscale=stretch>"
+ coords_l: 1155
+ coords_r: 1317
+ coords_t: 304
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text : _nameless._.bar.bottom {
+ text: "<color value=FFFFFFFF><img src=/material/ui/adviser/bar_down.mat top=p12 xscale=stretch>"
+ coords_l: 1081
+ coords_r: 1407
+ coords_t: 109
+ coords_b: 69
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text : _nameless._.logo {
+ text: "<img src=/material/ui/adviser/logo.mat right=p95>"
+ coords_l: 1197
+ coords_r: 1292
+ coords_t: 43
+ coords_b: 27
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text : _nameless._.win2 {
+ text: "<img src=/material/ui/adviser/bcg2.mat right=p382 bottom=p326>"
+ coords_l: 1054
+ coords_r: 1440
+ coords_t: 329
+ coords_b: 0
+ area_l: 0
+ area_r: 0
+ area_t: 0
+ area_b: 0
+ id: 0
+ layer: 10
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text : _nameless._.running.line.bcg {
+ text: "<color value=FF101010><img src=/material/ui/white.mat xscale=stretch yscale=stretch>"
+ coords_l: 1081
+ coords_r: 1407
+ coords_t: 69
+ coords_b: 45
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 302
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text : _nameless._.title.bcg {
+ text: "<img src=/material/ui/white.mat color=FF373737 width=201 yscale=stretch><img src=/material/ui/white.mat color=FF101010 xscale=stretch yscale=stretch>\r\n"
+ coords_l: 1081
+ coords_r: 1407
+ coords_t: 281
+ coords_b: 261
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::button_row : _nameless._.page.buttons {
+ row_align: center
+ label_indent: 0
+ item_distance: 6
+ min_item_width: 0
+ button_row_type: dynamic
+ value_list: "ico_navigator.mat~ico_job.mat~ico_assistance.mat~ico_current.mat"
+ id_list: "170~160~180~200"
+ width_list: ""
+ list_delimiter: "~"
+ look_template: btn.adviser.icon
+ button_type: radio
+ button_tab_base: -1
+ p_pml_as_reference: false
+ use_blend_buttons: false
+ fitting: false
+ my_children: 0
+ coords_l: 1081
+ coords_r: 1407
+ coords_t: 109
+ coords_b: 69
+ area_l: 1081
+ area_r: 1407
+ area_t: 109
+ area_b: 69
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::group : _nameless._.full.control.tip {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless.0052e6230
+ my_children[1]: _nameless.0052e67f0
+ coords_l: 1060
+ coords_r: 1431
+ coords_t: 436
+ coords_b: 396
+ area_l: 1060
+ area_r: 1431
+ area_t: 436
+ area_b: 396
+ id: 101
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text_common : _nameless.0052e6230 {
+ value: DC000000
+ look_template: txt.window.bcg_rect8
+ text: ""
+ coords_l: 1061
+ coords_r: 1427
+ coords_t: 461
+ coords_b: 401
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.full.control.tip
+}
+
+ui::text_common : _nameless.0052e67f0 {
+ value: "@@full_ctrl_hint@@"
+ look_template: txt.emph.big.center
+ text: ""
+ coords_l: 1075
+ coords_r: 1416
+ coords_t: 461
+ coords_b: 401
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.full.control.tip
+}
+
+ui::group : _nameless._.main.controls.tip {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless.0052f9b30
+ my_children[1]: _nameless._.page.hot.keys
+ my_children[2]: _nameless._.full.control.hot.key
+ coords_l: 1083
+ coords_r: 1409
+ coords_t: 70
+ coords_b: 42
+ area_l: 1083
+ area_r: 1409
+ area_t: 70
+ area_b: 42
+ id: 330
+ layer: 6
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text : _nameless.0052f9b30 {
+ text: "<offset hshift=5 vshift=2><img src=/material/ui/cursor_pointer.mat width=16 height=32>\r\n<offset hshift=5 vshift=-2><img src=/material/ui/white.mat xscale=stretch yscale=stretch width=36 color=FF222222>"
+ coords_l: 1082
+ coords_r: 1165
+ coords_t: 68
+ coords_b: 45
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.main.controls.tip
+}
+
+ui::text_table_common : _nameless._.page.hot.keys {
+ row_height: 23
+ col_widths: "0|36|36|36|36|0"
+ h_cellspacing: 6
+ v_cellspacing: 0
+ value: "F5|F6|F7|F8"
+ look_template: txt.table.adv_tipbcg
+ text: ""
+ coords_l: 1157
+ coords_r: 1343
+ coords_t: 68
+ coords_b: 45
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 332
+ layer: 7
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.main.controls.tip
+}
+
+ui::text_common : _nameless._.full.control.hot.key {
+ value: F1
+ look_template: txt.adv_tip_key
+ text: ""
+ coords_l: 1108
+ coords_r: 1144
+ coords_t: 68
+ coords_b: 45
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 331
+ layer: 7
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.main.controls.tip
+}
+
+ui::button_common : _nameless._.help.button {
+ value: "ico_help.mat"
+ value2: "ico_help.mat"
+ look_template: btn.adviser.icon
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 1371
+ coords_r: 1407
+ coords_t: 109
+ coords_b: 69
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 290
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::text : _nameless._.bar.top {
+ text: "<img src=/material/ui/adviser/bar_up1.mat top=p5 xscale=stretch>"
+ coords_l: 1081
+ coords_r: 1407
+ coords_t: 304
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.full
+}
+
+ui::group : _nameless._.advisor.mini {
+ fitting: false
+ my_children: 13
+ my_children[0]: _nameless._.page
+ my_children[1]: _nameless._.running.line
+ my_children[2]: _nameless._.money
+ my_children[3]: _nameless._.speed
+ my_children[4]: _nameless._.gear
+ my_children[5]: _nameless._.damage
+ my_children[6]: _nameless._.fuel.warn
+ my_children[7]: _nameless._.fuel.bar
+ my_children[8]: _nameless._.fatigue
+ my_children[9]: _nameless._.mail
+ my_children[10]: _nameless._.time
+ my_children[11]: _nameless._.light.mode.bg
+ my_children[12]: _nameless._.speed.warning
+ coords_l: 1054
+ coords_r: 1440
+ coords_t: 461
+ coords_b: 0
+ area_l: 1054
+ area_r: 1440
+ area_t: 461
+ area_b: 0
+ id: 102
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.area
+}
+
+ui::portal : _nameless._.page {
+ child_path: "/ui/adviser_car.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: 1081
+ coords_r: 1407
+ coords_t: 281
+ coords_b: 111
+ area_l: 1081
+ area_r: 1407
+ area_t: 281
+ area_b: 111
+ id: 500
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::portal : _nameless._.running.line {
+ child_path: "/ui/adviser_running_line.sii"
+ hslider_id: -1
+ vslider_id: -1
+ fitting: false
+ my_children: 0
+ coords_l: 1092
+ coords_r: 1398
+ coords_t: 68
+ coords_b: 45
+ area_l: 1092
+ area_r: 1398
+ area_t: 68
+ area_b: 45
+ id: 300
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text_common : _nameless._.money {
+ value: "E 200.000.000.000,-"
+ look_template: txt.adv_money
+ text: ""
+ coords_l: 1223
+ coords_r: 1403
+ coords_t: 281
+ coords_b: 260
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 320
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text_common : _nameless._.speed {
+ value: "100 km/h"
+ look_template: txt.adv_speed
+ text: ""
+ coords_l: 1081
+ coords_r: 1159
+ coords_t: 304
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text_common : _nameless._.gear {
+ value: A12
+ look_template: txt.adv_gear
+ text: ""
+ coords_l: 1151
+ coords_r: 1200
+ coords_t: 304
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 130
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text_common : _nameless._.damage {
+ value: "truck_small|5|FF0000FF"
+ look_template: txt.adv_icon
+ text: ""
+ coords_l: 1197
+ coords_r: 1229
+ coords_t: 301
+ coords_b: 285
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 135
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text : _nameless._.fuel.warn {
+ text: "<img src=/material/ui/adviser/fuel.mat color=FF969696>"
+ coords_l: &4499dc72
+ coords_r: 1246
+ coords_t: 301
+ coords_b: 285
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 141
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text_common : _nameless._.fuel.bar {
+ value: ""
+ look_template: txt.adv_fuel
+ text: ""
+ coords_l: 1246
+ coords_r: 1251
+ coords_t: 300
+ coords_b: 286
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 140
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text_common : _nameless._.fatigue {
+ value: "fatigue|8|FFE9A131"
+ look_template: txt.adv_icon
+ text: ""
+ coords_l: 1254
+ coords_r: 1286
+ coords_t: 301
+ coords_b: 285
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 155
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::button_common : _nameless._.mail {
+ value: ""
+ value2: ""
+ look_template: btn.adviser.mail
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1289
+ coords_r: 1309
+ coords_t: 304
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 120
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text_common : _nameless._.time {
+ value: "Wed 12:35 pm"
+ look_template: txt.adv_time
+ text: ""
+ coords_l: 1306
+ coords_r: 1416
+ coords_t: 304
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 150
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::group : _nameless._.light.mode.bg {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless._.window.bg
+ my_children[1]: _nameless._.bar.top.1
+ my_children[2]: _nameless._.running.line.bg.light
+ coords_l: 1073
+ coords_r: 1421
+ coords_t: 310
+ coords_b: 63
+ area_l: 1073
+ area_r: 1421
+ area_t: 310
+ area_b: 63
+ id: 1150
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::text : _nameless._.window.bg {
+ text: "<img src=/material/ui/adviser/bcg_light.mat>"
+ coords_l: 1073
+ coords_r: 1421
+ coords_t: 310
+ coords_b: 93
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.light.mode.bg
+}
+
+ui::text : _nameless._.bar.top.1 {
+ text: "<img src=/material/ui/adviser/bar_up1.mat top=p5 xscale=stretch color=51FFFFFF>"
+ coords_l: 1081
+ coords_r: 1407
+ coords_t: 304
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1101
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.light.mode.bg
+}
+
+ui::text_common : _nameless._.running.line.bg.light {
+ value: ""
+ look_template: txt.window.bcg_rect_adv
+ text: ""
+ coords_l: 1073
+ coords_r: 1415
+ coords_t: 96
+ coords_b: 63
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.light.mode.bg
+}
+
+ui::text : _nameless._.speed.warning {
+ text: "<img src=/material/ui/adviser/speed_warning_bcg.mat xscale=stretch>"
+ coords_l: 1081
+ coords_r: 1155
+ coords_t: 304
+ coords_b: 282
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 111
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.mini
+}
+
+ui::group : _nameless._.weigh.service {
+ fitting: true
+ my_children: 7
+ my_children[0]: _nameless._.weigh.title
+ my_children[1]: _nameless._.weigh.text.bg
+ my_children[2]: _nameless._.weigh.win
+ my_children[3]: _nameless._.weigh.logo
+ my_children[4]: _nameless._.weigh.lights.off
+ my_children[5]: _nameless._.stop.light
+ my_children[6]: _nameless._.go.light
+ coords_l: 1054
+ coords_r: 1440
+ coords_t: 389
+ coords_b: 325
+ area_l: 1054
+ area_r: 1440
+ area_t: 389
+ area_b: 325
+ id: 400
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.advisor.area
+}
+
+ui::text_common : _nameless._.weigh.title {
+ value: "@@weigh_device_title@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 1121
+ coords_r: 1360
+ coords_t: 373
+ coords_b: 341
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.weigh.service
+}
+
+ui::text_common : _nameless._.weigh.text.bg {
+ value: ""
+ look_template: txt.window.bcg_rect_adv
+ text: ""
+ coords_l: 1073
+ coords_r: 1415
+ coords_t: 373
+ coords_b: 341
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.weigh.service
+}
+
+ui::text : _nameless._.weigh.win {
+ text: "<img src=/material/ui/adviser/weigh_bg.mat>"
+ coords_l: 1054
+ coords_r: 1440
+ coords_t: 389
+ coords_b: 325
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 401
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.weigh.service
+}
+
+ui::text : _nameless._.weigh.logo {
+ text: "<img src=/material/ui/icon/weigh_logo.mat>"
+ coords_l: 1079
+ coords_r: 1113
+ coords_t: 373
+ coords_b: 341
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.weigh.service
+}
+
+ui::text : _nameless._.weigh.lights.off {
+ text: "<img src=/material/ui/icon/weigh_red_off.mat><offset hshift=-10><img src=/material/ui/icon/weigh_green_off.mat>"
+ coords_l: 1357
+ coords_r: 1415
+ coords_t: 373
+ coords_b: 341
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.weigh.service
+}
+
+ui::text : _nameless._.stop.light {
+ text: "<img src=/material/ui/icon/weigh_red_on.mat>"
+ coords_l: 1357
+ coords_r: 1389
+ coords_t: 373
+ coords_b: 341
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 410
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.weigh.service
+}
+
+ui::text : _nameless._.go.light {
+ text: "<img src=/material/ui/icon/weigh_green_on.mat>"
+ coords_l: 1379
+ coords_r: 1411
+ coords_t: 373
+ coords_b: 341
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 420
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.weigh.service
+}
+
+}
